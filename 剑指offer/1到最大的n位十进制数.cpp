@@ -1,4 +1,4 @@
-// algorithm1.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// algorithm1.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
@@ -17,7 +17,7 @@
 
 using namespace std;
 
-//ÌâÄ¿£ºÊäÈëÊı×Ön£¬°´Ë³Ğò´òÓ¡³ö´Ó1×î´óµÄnÎ»Ê®½øÖÆÊı¡£±ÈÈçÊäÈë3£¬Ôò´òÓ¡³ö1¡¢2¡¢3Ò»Ö±µ½×î´óµÄ3Î»Êı¼´999¡£
+//é¢˜ç›®ï¼šè¾“å…¥æ•°å­—nï¼ŒæŒ‰é¡ºåºæ‰“å°å‡ºä»1æœ€å¤§çš„nä½åè¿›åˆ¶æ•°ã€‚æ¯”å¦‚è¾“å…¥3ï¼Œåˆ™æ‰“å°å‡º1ã€2ã€3ä¸€ç›´åˆ°æœ€å¤§çš„3ä½æ•°å³999ã€‚
 int counti(int n)
 {
 	int c = 0;
@@ -46,6 +46,7 @@ void printn(int n, int len, int num)
 	printn(n, len, num + 1);
 }
 
+//å…¨æ’åˆ—
 bool fullpermutation(vector<vector<int>> &r, vector<int> &v, int len)
 {
 	if (len >= v.size())
@@ -57,7 +58,7 @@ bool fullpermutation(vector<vector<int>> &r, vector<int> &v, int len)
 	{
 		v[len] = i;
 
-		//ÕâÀï»áÖØ¸´pushÒ»¸öÊı
+		//è¿™é‡Œä¼šé‡å¤pushä¸€ä¸ªæ•°
 		//fullpermutation(r, v, len + 1);
 		//r.push_back(v);
 
@@ -68,6 +69,7 @@ bool fullpermutation(vector<vector<int>> &r, vector<int> &v, int len)
 	return true;
 }
 
+//é€’å½’
 void permutation(vector<int> &n, vector<vector<int>> &p, int len)
 {
 	if (len >= n.size())
