@@ -14,7 +14,7 @@ Some examples :
 
 "2e10" = > true
 
-![img](/img/leetcode/valid number.png)
+![img](../img/leetcode/valid-number.JPG)
 
 ```
 
