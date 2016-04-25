@@ -14,6 +14,9 @@ Some examples :
 
 "2e10" = > true
 
+###方法一：直接按照格式要求来验证
+
+###方法二：用状态机，状态图如下：
 ![img](../img/leetcode/valid-number.JPG)
 
 ```
@@ -148,7 +151,7 @@ bool isNumber1(string s)
 {
 	int i = 0;
 
-	//ȥ���ո�
+	//È¥³ý¿Õ¸ñ
 	while (s[i] == ' ')
 	{
 		i++;
@@ -203,7 +206,7 @@ bool isNumber1(string s)
 	return s[i] == 0;
 }
 
-//������״̬��
+//ÓÃÓÐÏÞ×´Ì¬»ú
 class Solution {
 public:
 
