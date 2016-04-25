@@ -1,16 +1,22 @@
-// algorithm1.cpp : 定义控制台应用程序的入口点。
-//
-//
-//leetcode :https://leetcode.com/problems/valid-number/
+leetcode :https://leetcode.com/problems/valid-number/
 
-//Validate if a given string is numeric.
-//
-//Some examples :
-//"0" = > true
-//" 0.1 " = > true
-//"abc" = > false
-//"1 a" = > false
-//"2e10" = > true
+Validate if a given string is numeric.
+
+Some examples :
+
+"0" = > true
+
+" 0.1 " = > true
+
+"abc" = > false
+
+"1 a" = > false
+
+"2e10" = > true
+
+![img](/img/leetcode/valid number.png)
+
+```
 
 #include "stdafx.h"
 
@@ -469,3 +475,4 @@ int main()
 	return 0;
 }
 
+```
